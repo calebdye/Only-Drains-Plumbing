@@ -1,5 +1,5 @@
 ## **Project Demo**
-[Live Demo](https://react-plumbing-app.netlify.app/)
+[Live Demo]()
 
 ## **Description**
 **Plumbing Services website** is a web-based platform that showcases the plumbing services offered by a plumbing company. The website is designed to provide users with information about the company's services, team, and contact details.
@@ -49,14 +49,11 @@
 To make use of this project, kindly run any of the following commands.
 
 ```
+Creator of original template
 git clone https://github.com/Ridwanullahi-code/plumbing-website.git
 ```
 
-or
 
-```
-git clone git@github.com:Ridwanullahi-code/plumbing-website.git
-```
 ## **INSTALL**
 ```
 npm install
@@ -68,31 +65,4 @@ To run the project on server, run below command
 ```
 npm start
 ```
-## **Run Test**
-To test run the project
 
-## **Show your support**
-
-Give a ⭐️ if you like this project!
-
-## **Authors**
-
-- Github: [Ridwan](https://github.com/Ridwanullahi-code)
-- LinkedIn: [Ridwan](https://www.linkedin.com/in/ajayi-ridwan/)
-
-## 🚀 **About Me**
-
-I'm full stack software developer, Computer science, and Microverse student.
-
-**Stack:** Python, JavaScript, Bootstrap, Ruby, Rails, React, Redux. Available for hire!
-## 🤝 **Contributing**
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Ridwanullahi-code/plumbing-website/issues/)
-## **Acknowledgements**
-
-- [Microverse](https://www.microverse.org/)
-
-## **License**
-
-This project is [MIT](https://choosealicense.com/licenses/mit/LICENSE) licensed.
