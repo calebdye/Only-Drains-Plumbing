@@ -5,11 +5,11 @@ const Card = ({ image, alt, skill, summary }) => {
   return (
     <div className='"md:max-w-md  rounded-sm overflow-hidden 
         shadow-lg bg-gray-200 md:h-[430px] text-deepBlue"'>
-      <img
+      {/* <img
         className="w-full"  
         src={image}
         alt={alt}
-      />
+      /> */}
       <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 text-deepBlue">{skill}</div>
             <p className="text-gray-700 text-base text-[13px]">

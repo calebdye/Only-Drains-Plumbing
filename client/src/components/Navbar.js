@@ -39,7 +39,7 @@ const Navbar = () => {
           <WrenchScrewdriverIcon className="h-6 w-6 md:h-8 md:w-8 text-blue-500" />
           <span className="md:text-2xl mx-2 text-blue-900 font-bold">Chandler Ostler</span>
           </NavLink>
-          <p className="text-sm">Professional Plumber</p>
+          <p className="text-sm">Drain Technician</p>
         </div>
 
           <div className="flex md:space-x-20 space-x-5">
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <PhoneIcon className="h-6 w-6 text-blue-400" />
             </span>
             <div className="flex flex-col justify-center items-baseline">
-                <p className="font-bold">Call us on</p>
+                <p className="font-bold">Call or Text</p>
                 <a href="tel:+2348147603570" className="text-sm grey">385-229-9779</a>
             </div>
           </div>
@@ -67,12 +67,12 @@ const Navbar = () => {
       <nav className="flex justify-center  items-center
         bg-paleBlue px-3  md:pr-0
        text-white mx-auto text-[12px] md:text-[15px] font-bold">
-        <ul className="flex space-x-4 md:space-x-10  md:mx-3 py-6">
+        {/* <ul className="flex space-x-4 md:space-x-10  md:mx-3 py-6">
         <NavLink className="link font-bold" to="/">HOME</NavLink>
         <li><NavLink className="link font-bold" to="/about">ABOUT US</NavLink></li>
         <li data-to-scrollspy-id="services"><NavLink className="link font-bold"  to="/result">SERVICES</NavLink></li>
         <li><NavLink className="link font-bold " to="/projects">PROJECTS</NavLink></li>  
-        </ul>
+        </ul> */}
         {/* <li className="hidden md:block hover:opacity-90 
         active:bg-blue-700 bg-blue-500 px-5 py-6 font-bold">BLOG</li> */}
       </nav>

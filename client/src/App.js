@@ -36,12 +36,12 @@ function App() {
         <Route path="/project-overview/:title" element={<ProjectOverview />} />
         <Route path='/success' element={<Redirect />} />
       </Routes>
-      <AiOutlineMessage
+      {/* <AiOutlineMessage
         className="chat cursor-pointer  p-3 fixed
           bottom-20 right-4 h-16 w-16 z-50 rounded-full"
         onClick={() => setOpen(!open)}
       />
-      {open && <ChatModal />}
+      {open && <ChatModal />} */}
     </div>
     </>
   );
