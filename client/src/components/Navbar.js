@@ -37,9 +37,9 @@ const Navbar = () => {
         <div className="md:flex md:flex-col items-baseline ">
           <NavLink to="/" className="link flex items-center">
           <WrenchScrewdriverIcon className="h-6 w-6 md:h-8 md:w-8 text-blue-500" />
-          <span className="md:text-2xl mx-2 text-blue-900 font-bold">Chandler Ostler</span>
+          <span className="md:text-2xl mx-2 text-blue-900 font-bold">Chandler P. Ostler</span>
           </NavLink>
-          <p className="text-sm">Drain Technician</p>
+          <p className="text-sm">Drain Specialist</p>
         </div>
 
           <div className="flex md:space-x-20 space-x-5">
@@ -59,7 +59,7 @@ const Navbar = () => {
             </span>
             <div className="flex flex-col justify-center items-baseline">
               <p className="font-bold">Email us</p>
-              <a href="mailto:onlydrains@gmail.com" className="text-sm grey">OnlyDrains@gmail.com</a>
+              <a href="mailto:onlydrains@gmail.com" className="text-sm grey">OnlyDrainsUtah@gmail.com</a>
             </div>
           </div>
         </div>
