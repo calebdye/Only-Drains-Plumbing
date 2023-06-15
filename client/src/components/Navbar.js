@@ -67,14 +67,6 @@ const Navbar = () => {
       <nav className="flex justify-center  items-center
         bg-paleBlue px-3  md:pr-0
        text-white mx-auto text-[12px] md:text-[15px] font-bold">
-        {/* <ul className="flex space-x-4 md:space-x-10  md:mx-3 py-6">
-        <NavLink className="link font-bold" to="/">HOME</NavLink>
-        <li><NavLink className="link font-bold" to="/about">ABOUT US</NavLink></li>
-        <li data-to-scrollspy-id="services"><NavLink className="link font-bold"  to="/result">SERVICES</NavLink></li>
-        <li><NavLink className="link font-bold " to="/projects">PROJECTS</NavLink></li>  
-        </ul> */}
-        {/* <li className="hidden md:block hover:opacity-90 
-        active:bg-blue-700 bg-blue-500 px-5 py-6 font-bold">BLOG</li> */}
       </nav>
     </header>
   )
