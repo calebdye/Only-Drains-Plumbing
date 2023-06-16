@@ -42,12 +42,12 @@ const Home = () => {
                 <li>Main Sewer Drains</li>
                 <li>Kitchen Sink Drains</li>
                 <li>Laundry Drains</li>
-                <li>Bathroom Sink Drain</li>
+                <li>Bathroom Sink Drains</li>
                 <li>Tub/Shower Drains</li>
                 <li>Floor Drains</li>
               </ul>
               <p className='font-bold text-lg'>
-              Seriouslly, Only Drains!
+              Seriously, Only Drains!
               </p>
                 
             
