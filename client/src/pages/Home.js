@@ -38,7 +38,8 @@ const Home = () => {
       <div className="px-6 py-4 text-center">
             <div className="font-bold text-xl mb-2 text-deepBlue">Things that we specialize in</div>
             
-              <ul className='list-disc marker:text-blue-500 list-inside'>
+            <div className="display: inline-block ">
+              <ul className='list-disc marker:text-blue-500 list-outside'>
                 <li>Main Sewer Drains</li>
                 <li>Kitchen Sink Drains</li>
                 <li>Laundry Drains</li>
@@ -46,6 +47,8 @@ const Home = () => {
                 <li>Tub/Shower Drains</li>
                 <li>Floor Drains</li>
               </ul>
+            </div>
+
               <p className='font-bold text-lg'>
               Seriously, Only Drains!
               </p>
@@ -59,12 +62,14 @@ const Home = () => {
         shadow-lg bg-gray-200 md:h-[430px] text-deepBlue"'>
       <div className="px-6 py-4 text-center">
             <div className="font-bold text-xl mb-2 text-deepBlue">Our Areas of Service</div>
-            <ul className='list-disc marker:text-blue-500 list-inside'>
-                <li>Salt Lake County</li>
-                <li>Utah County</li>
-                <li>Davis County</li>
-                <li>Weber County</li>
-              </ul>
+            <div className="display: inline-block ">
+              <ul className='list-disc marker:text-blue-500 list-outside'>
+                  <li>Salt Lake County</li>
+                  <li>Utah County</li>
+                  <li>Davis County</li>
+                  <li>Weber County</li>
+                </ul>
+            </div>
       </div>
     </div>
          
