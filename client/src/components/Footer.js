@@ -28,10 +28,12 @@ const Footer = () => {
                   <MapPinIcon className='text-blue-500 h-4 w-4 mx-1' />
                   18 Aborishade Road, Lawanson
                 </span> */}
-                <span  href="tel:+13852299779" className='text-sm flex items-center'>
-                  <PhoneIcon href="tel:+13852299779" className='text-blue-500 h-4 w-4 mx-1'/>
+                  <a href="tel:+13852299779">
+                <span className='text-sm flex items-center'>
+                  <PhoneIcon  className='text-blue-500 h-4 w-4 mx-1'/>
                   385-229-9779
               </span>
+                  </a>
               <div className='text-sm flex items-center'>
                   <EnvelopeIcon className='text-blue-500 h-4 w-4 mx-1'/>
                   <a href="mailto:OnlyDrainsUtah@gmail.com">OnlyDrainsUtah@gmail.com</a>

@@ -44,7 +44,9 @@ const Navbar = () => {
 
           <div className="flex md:space-x-20 space-x-5">
             <span className="border border-blue-400 p-2">
-                <PhoneIcon href="tel:+13852299779" className="h-6 w-6 text-blue-400" />
+              <a href="tel:+13852299779">
+                <PhoneIcon  className="h-6 w-6 text-blue-400" />
+                </a>
             </span>
             <div className="flex flex-col justify-center items-baseline">
                 <p className="font-bold">Call or Text</p>
@@ -53,12 +55,14 @@ const Navbar = () => {
           </div>
 
         <div className="hidden md:flex space-x-3 items-center">
-          <div className="flex space-x-3 items-center">
-            <span className="border border-blue-400 p-2">
-                <EnvelopeIcon href="mailto:onlydrains@gmail.com" className="h-6 w-6 text-blue-400" />
+          <div  className="flex space-x-3 items-center">
+            <span  className="border border-blue-400 p-2">
+            <a href="mailto:onlydrains@gmail.com">
+                <EnvelopeIcon  className="h-6 w-6 text-blue-400" />
+              </a>
             </span>
-            <div className="flex flex-col justify-center items-baseline">
-              <p className="font-bold">Email us</p>
+            <div  className="flex flex-col justify-center items-baseline">
+              <p  className="font-bold">Email us</p>
               <a href="mailto:onlydrains@gmail.com" className="text-sm grey">OnlyDrainsUtah@gmail.com</a>
             </div>
           </div>
