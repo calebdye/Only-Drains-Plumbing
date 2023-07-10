@@ -48,7 +48,7 @@ const Navbar = () => {
             </span>
             <div className="flex flex-col justify-center items-baseline">
                 <p className="font-bold">Call or Text</p>
-                <a href="tel:+3852299779" className="text-sm grey">385-229-9779</a>
+                <a href="tel:+13852299779" className="text-sm grey">385-229-9779</a>
             </div>
           </div>
 
