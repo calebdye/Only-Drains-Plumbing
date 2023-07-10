@@ -29,7 +29,7 @@ const Footer = () => {
                   18 Aborishade Road, Lawanson
                 </span> */}
                 <span  href="tel:+13852299779" className='text-sm flex items-center'>
-                  <PhoneIcon className='text-blue-500 h-4 w-4 mx-1'/>
+                  <PhoneIcon href="tel:+13852299779" className='text-blue-500 h-4 w-4 mx-1'/>
                   385-229-9779
               </span>
               <div className='text-sm flex items-center'>
