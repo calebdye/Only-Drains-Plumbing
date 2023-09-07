@@ -34,7 +34,7 @@ const Home = () => {
           <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
          
           <div className='"md:max-w-md  rounded-sm overflow-hidden 
-        shadow-lg bg-gray-200 md:h-[430px] text-deepBlue"'>
+        shadow-lg bg-gray-200  text-deepBlue"'>
       <div className="px-6 py-4 text-center">
             <div className="font-bold text-xl mb-2 text-deepBlue">Things that we specialize in</div>
             
@@ -59,7 +59,7 @@ const Home = () => {
 
 
     <div className='"md:max-w-md  rounded-sm overflow-hidden 
-        shadow-lg bg-gray-200 md:h-[430px] text-deepBlue"'>
+        shadow-lg bg-gray-200 text-deepBlue"'>
       <div className="px-6 py-4 text-center">
             <div className="font-bold text-xl mb-2 text-deepBlue">Our Areas of Service</div>
             <div className="display: inline-block ">

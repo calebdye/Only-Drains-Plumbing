@@ -5,15 +5,26 @@ import facebook from '../logo/facebook.jpg'
 import twitter from '../logo/twitter.png'
 import google from '../logo/google.jpg'
 import linkedin from '../logo/linkedin.png'
+import logo from '../logo/400JpgdpiLogo.jpg'
 
 const Navbar = () => {
   return (
     <header>
-      <div className="flex">
-        <div className="bg-blue-500 w-1/3 p-3 flex items-center px-5">
-          <span className="text-white font-bold text-[13px] md:text-[18px] company">Only Drains</span>
-        </div>
-        <div className="bg-paleBlue w-2/3 p-3 flex justify-end items-center md:pr-20">
+      <div
+      className="flex justify-center"
+      >
+
+                <img
+             className="h-[200px]"
+            src={logo}
+            alt="Classic brass shower valve on a tiled wall in a victorian style bathroom"
+          />
+      </div>
+      {/* <div className="flex"> */}
+        {/* <div className="bg-blue-500 w-1/3 p-3 flex items-center px-5"> */}
+          {/* <span className="text-white font-bold text-[13px] md:text-[18px] company">Only Drains</span> */}
+        {/* </div> */}
+        {/* <div className="bg-paleBlue w-2/3 p-3 flex justify-end items-center md:pr-20"> */}
           {/* socials dont need for this site */}
           {/* <div className='flex space-x-3'>
           <a href="https://www.facebook.com/profile.php?id=100063464694068&mibextid=ZbWKwL"
@@ -31,13 +42,13 @@ const Navbar = () => {
           </a>
         </div> */}
 
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
       <div className="flex justify-center md:flex items-center justify-around  py-2 px-3 md:px-10 bg-white">
         <div className="md:flex md:flex-col items-baseline ">
           <NavLink to="/" className="link flex items-center">
-          <WrenchScrewdriverIcon className="h-6 w-6 md:h-8 md:w-8 text-blue-500" />
-          <span className="md:text-2xl mx-2 text-blue-900 font-bold">Chandler P. Ostler</span>
+          {/* <WrenchScrewdriverIcon className="h-6 w-6 md:h-8 md:w-8 text-blue-500" /> */}
+          <span className="md:text-2xl  text-blue-900 font-bold">Chandler P. Ostler</span>
           </NavLink>
           <p className="text-sm">Drain Specialist</p>
         </div>
